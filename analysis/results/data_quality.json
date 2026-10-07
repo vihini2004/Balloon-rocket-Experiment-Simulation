@@ -1,0 +1,103 @@
+{
+  "frame_rate_check": {
+    "24": false,
+    "25": false,
+    "29.97": false,
+    "30": false,
+    "50": false,
+    "59.94": false,
+    "60": true
+  },
+  "frames_A": [
+    0,
+    50,
+    51
+  ],
+  "frames_B": [
+    0,
+    50,
+    51
+  ],
+  "frames_C": [
+    1,
+    50,
+    50
+  ],
+  "frames_D": [
+    1,
+    50,
+    50
+  ],
+  "row_matching_error_mm_max": 30.00000000000025,
+  "straw_between_balloon_ends": true,
+  "marker_D": {
+    "scale_vs_B": 4.575063132699277,
+    "rms_residual_m": 0.03005552375518363,
+    "rms_residual_pct_of_range": 0.332829737164697,
+    "displacement_ratio_range": [
+      4.502604166666667,
+      5.429809358752166
+    ],
+    "mean_y_m": -0.7625799999999999,
+    "excluded": true
+  },
+  "export_rounding_steps_m": [
+    1e-06,
+    1e-05,
+    0.0001,
+    0.001,
+    0.01
+  ],
+  "straw_samples_with_1cm_rounding": 19,
+  "tracking_noise": {
+    "A": {
+      "sigma_mm": 1.6322668644148688,
+      "n_third_differences": 27
+    },
+    "B": {
+      "sigma_mm": 2.9402448395690124,
+      "n_third_differences": 29
+    },
+    "C": {
+      "sigma_mm": 2.808485474800757,
+      "n_third_differences": 30
+    }
+  },
+  "mis_clicks": {
+    "A": {
+      "flagged": [],
+      "deviation_mm": {},
+      "z_flagged": {},
+      "largest_other_z": [
+        1.97,
+        26
+      ]
+    },
+    "B": {
+      "flagged": [
+        14
+      ],
+      "deviation_mm": {
+        "14": -17.5
+      },
+      "z_flagged": {
+        "14": 4.84
+      },
+      "largest_other_z": [
+        2.97,
+        42
+      ]
+    },
+    "C": {
+      "flagged": [],
+      "deviation_mm": {},
+      "z_flagged": {},
+      "largest_other_z": [
+        3.04,
+        18
+      ]
+    }
+  },
+  "wire_slope_deg": 0.027001786846061374,
+  "straw_y_range_mm": 18.59
+}
